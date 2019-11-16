@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Сайт-Портфолио</title>
+  <style>
+    BODY {
+    background: rgb(225, 238, 225); /* Цвет фона веб-страницы */
+   } 
+   A {
+    color: #ff7b00; /* Цвет ссылок */
+   }
+   A:visited {
+    color: #ff7b00; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: #ff7b00; /* Цвет активных ссылок */
+   }
+    .gradient {
+      background: #fefcea; 
+      background: linear-gradient(to top, #fefcea, #f1da36);
+      padding: 10px;
+      border: 1px solid #333;
+      font-size: 14pt;
+    }
+    .big_char {
+      font-size: 20pt;
+    }
+    ul {
+      list-style: none; /*убираем маркеры списка*/
+      margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+      padding-left: 0; /*убираем левый отступ, равный 40px*/
+      margin:0 auto;
+      display: flex;
+    }
+    a {
+      text-decoration: none;
+    }
+   </style>
+ </head>
+ <body>
+    <ul >
+        <li><a href="#About">О себе &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#Photo">Фото &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#Job">Работа &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="https://chita.hh.ru/resume/66d1b9ceff021fe93e0039ed1f4c4a756c7274">Резюме на hh.ru </a></li>
+    </ul>
+   <p><a name="About"></a></p>
+   <p class="gradient"> <b class="big_char"> Абаут ми </b> <br>
+     Привет! Меня зовут Никита и мне 27 годиков. Родился в славном городке Пыть-Ях что на севере нашей страны. 
+     Когда мне исполнилось 17 лет, я поступил в Южно-Уральский Государственный Университет, 
+     на специальность "Защита информации", которую и закончил в 2015 году. На текущий момент времени работаю в ООО ЧОО "Аргумент",
+     на должности начальник отдела специальных мероприятий. Являюсь преподавателем в Международном Институте дизайна и сервиса и аспирантом
+     Южно-Уральском Государственном Университете </p>   
+     <p><a name="Photo"></a></p>
+     <img class="gradient" src="img.jpg" width="172" height="230" class="rightimg">
+     <p><a name="Job"></a></p>
+     <p class="gradient"> <b class="big_char"> Немного о работе </b> <br>
+      Октябрь 2012 — октябрь 2014 "СКБ Контур" <br>
+      Май 2013 — октябрь 2014 Варяг, Холдинг предприятий безопасности <br>
+      Октябрь 2014 — по настоящее время ООО "Аргумент"
+    </p>   
+
+ </body>
+</html>
